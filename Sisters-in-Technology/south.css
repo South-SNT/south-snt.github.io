@@ -1,0 +1,188 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Emilys+Candy|Handlee|Kaushan+Script|Monoton|Nixie+One|Playfair+Display+SC|Vollkorn+SC');
+
+/****************** NAV BAR *************************/
+.navUl {
+  font-family: 'Electrolize', sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navBar {
+  font-family: 'Electrolize', sans-serif;
+  display: inline-block;
+  color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+
+.navBar:hover, .dropdown:hover {
+  background-color: gray;
+  color:orange;
+}
+
+.navBar a:visited, .navBar a:link, .navBar a:hover {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.navBar:active {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.navLi.dropdown {
+  display: inline-block;
+}
+
+#membersList {
+  display: none;
+  position: absolute;
+  background-color: #BBBBBB;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(255,0,0,0.2);
+  z-index: 1;
+}
+
+#membersList a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+#membersList a:hover {background-color: #FFCC00}
+
+.dropdown:hover #membersList {
+  display: block;
+}
+/*********************** NAV BAR END ***********************/
+
+body {
+  background-color: grey;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  color: black;
+}
+
+#wrapper {
+  width:80%;
+  margin:auto;
+  border-left:groove 20px darkorange;
+  border-right:double 10px black;
+}
+
+/* Global Styling */
+
+a:visited, a:link {
+  color:#884000;
+  text-decoration:underline;
+  background:none;
+}
+
+a:hover {
+  color:#AA7000;
+  text-decoration:underline;
+  background:none;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  padding: 20px;
+  text-shadow: 0px 0px 24px rgba(255, 255, 255, 1);
+  /*font-family: 'Nixie One', cursive;
+  font-family: 'Electrolize', sans-serif;
+  font-family: 'Handlee', cursive;
+  font-family: 'Emilys Candy', cursive;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Playfair Display SC', serif;
+  font-family: 'Monoton', cursive;
+  font-family: 'Vollkorn SC', serif;*/
+}
+
+
+#banner {
+  font-family: 'Electrolize', sans-serif;
+  display:inline-block;
+  background-color: darkorange;
+  width: 100%;
+  text-align: center;
+  height: 300px;
+}
+
+#subBanner {
+  font-size: 25px;
+}
+
+#missionStatementWrapper {
+  display:inline-block;
+  text-align: center;
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+#missionStatementImg, 
+#missionStatementText {
+    display:inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#missionStatementImg {
+    display:inline-block;
+    overflow: hidden;
+    clip: rect(0px,8000px,350px,0px);
+    z-index: -1;
+}
+
+#chalkboardImg{
+    width: 100%;
+    filter: brightness(50%);
+}
+
+
+
+#missionStatementText p {
+  display:inline-block;
+  padding-top: 20px;
+  width: 80%;
+  margin: auto;
+  font-family: 'Electrolize', sans-serif;
+  font-size: 20px;
+  text-shadow: 
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+  color: #FF9900;
+  text-align: center;
+  z-index:2;
+}
+
+#details {
+  font-family: 'Electrolize', sans-serif;
+  font-size: 14px;
+  display:inline-block;
+  width: 100%;
+  background-color: #A0A0A0;
+  text-align: center;
+}
+
+#details.h2 {
+  font-size: 30px;
+}

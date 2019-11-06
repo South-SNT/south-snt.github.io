@@ -1,0 +1,241 @@
+/* Layout */
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Emilys+Candy|Handlee|Kaushan+Script|Monoton|Nixie+One|Playfair+Display+SC|Vollkorn+SC');
+/*font-family: 'Nixie One', cursive;
+font-family: 'Electrolize', sans-serif;
+font-family: 'Handlee', cursive;
+font-family: 'Emilys Candy', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Monoton', cursive;
+font-family: 'Vollkorn SC', serif;*/
+
+/****************** NAV BAR **********************/
+.navUl {
+  font-family: 'Electrolize', sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #06a;
+  margin-bottom: 10px;
+}
+
+.navBar {
+  font-family: 'Electrolize', sans-serif;
+  display: inline-block;
+  color: #f6dde3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+
+.navBar:hover, .dropdown:hover {
+  background-color: #029;
+  color:#e6cce0;
+}
+
+.navBar a:visited, .navBar a:link, .navBar a:hover {
+  color: #e6cce0;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.navBar:active {
+  color: #e6cce0;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.navLi.dropdown {
+  display: inline-block;
+}
+
+#membersList {
+  display: none;
+  position: absolute;
+  background-color: #ffeef5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(255,0,0,0.2);
+  z-index: 1;
+}
+
+#membersList a {
+  color: #7f13b9;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+#membersList a:hover {background-color: #FFbbbb}
+
+.dropdown:hover #membersList {
+  display: block;
+}
+
+/*************** NAV BAR END **************************/
+
+body {
+  font:normal 12px/1.6em Georgia, sans-serif;
+  color:#314455;
+  background: #EEEEFF;
+  margin:0px;
+  padding:0px;
+}
+
+p{
+  margin:0px;
+  padding:1px;
+}
+
+#wrapper {
+  width:80%;
+  margin:auto;
+  border-left:groove 20px darkorange;
+  border-right:double 10px red;
+}
+
+#nav {
+  background:#06a;
+  text-align:right;
+  color:#f6dde3;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:20px;
+  padding-left:20px;
+}
+
+#header {
+  margin-left:1px;
+  margin-right:1px;
+}
+
+#main-content {
+  margin:auto;
+}
+
+#main-image {
+  text-align:center;
+}
+
+#left-column {
+  width:40%;
+  float:left;
+  padding-bottom:30px;
+  padding-right:5px;
+  padding-left:30px;
+}
+
+#right-column {
+  width: 50%;
+  float: right;
+  overflow: auto;
+}
+
+.sidebar {
+  background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;
+  width:218;
+  margin:auto;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:25px;
+  padding-left:25px;
+}
+
+#footer {
+  clear:both;
+  background:#f7f7f7;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:15px;
+  padding-left:15px;
+  border-top:solid 1px black;
+}
+
+/* Global Styling */
+
+a:visited, a:link {
+  color:#db0b3e;
+  text-decoration:underline;
+  background:none;
+}
+
+a:hover {
+  color:#a43b55;
+  text-decoration:none;
+  background:none;
+}
+
+h1 {
+  color:#7f13b9;
+  margin:0 0 10px;
+  padding-bottom:10px;
+  font:bold 17px Georgia, serif;
+  border-bottom:1px solid #efece7;
+}
+
+h2 {
+  color:#7f13b9;
+  margin:20px 0 10px;
+  padding-bottom:10px;
+  font:bold 17px Georgia, serif;
+  border-bottom:1px solid #efece7;
+}
+
+h3 {
+  color:#7f13b9;
+  margin:10px 0;
+  padding-bottom:10px;
+  font:bold 14px Georgia, sans-serif;
+  border-bottom:1px solid #efece7;
+}
+
+h4 {
+  color:#7f13b9;
+  margin:10px 0;
+  padding-bottom:10px;
+  font:bold 14px Georgia, sans-serif;
+  border-bottom:1px solid #efece7;
+}
+
+ul {
+  padding:0;
+  margin:0 0 0 17px;
+  list-style:square url('http://img525.imageshack.us/img525/1890/bulletr.gif');
+}
+
+.box {
+  background:#f7f7f7;
+  border:2px solid #f0e9eb;
+  padding:15px;
+}
+
+#nav a {
+  margin: 0 10px;
+}
+
+#nav a:visited, #nav a:link {
+  text-decoration:none;
+  color:#f6dde3;
+}
+
+#nav a:hover {
+  text-decoration:underline;
+  color:#f6dde3;
+}
+
+#logo {
+  margin-bottom:20px;
+  font:normal 18px Georgia, serif;
+  color:#fa7393;
+}
+
+}
+
+img {max-width: inherit;
+  border-color: #ff0045;
+  align-content: center
+}
