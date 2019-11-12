@@ -1,0 +1,24 @@
+div {
+    color: blue;
+}
+body {
+    background-image: url("https://2.bp.blogspot.com/-ZiTPmQdGGEk/UAWvOAcpH5I/AAAAAAAAGN4/7WmqV2WVuks/s1600/HDhut.blogspot.com+%2827%29.jpg");
+}
+h1 {
+    color: red;
+}
+.pic {
+    width: 250px;
+}
+
+.pic:hover {
+    width: 400px;
+}
+table {
+    margin-bottom: 200px;
+}
+
+.memeOfTheDay {
+    width: 600px;
+     margin: auto;
+}

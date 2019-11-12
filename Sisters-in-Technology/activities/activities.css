@@ -1,0 +1,127 @@
+
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Emilys+Candy');
+/*font-family: 'Emilys Candy', cursive;
+font-family: 'Electrolize', sans-serif;*/
+
+
+ul {
+  font-family: 'Electrolize', sans-serif;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+.navBar {
+  font-family: 'Electrolize', sans-serif;
+  display: inline-block;
+  color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBar:hover, .dropdown:hover{
+  background-color: gray;
+  color:orange;
+}
+
+.navBar:visited {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.navBar:active {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+#membersList {
+  display: none;
+  position: absolute;
+  background-color: #BBBBBB;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#membersList a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+#membersList a:hover {background-color: #FFCC00}
+
+.dropdown:hover #membersList {
+  display: block;
+}
+
+body {
+  background-color: grey;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  color: black;
+}
+
+#wrapper {
+  width:80%;
+  margin:auto;
+  border-left:groove 20px darkorange;
+  border-right:double 10px black;
+  background-color: aliceblue;
+}
+
+h1 {
+  font-family: 'Emilys Candy', cursive;
+  font-size: 32px;
+}
+
+h2{
+  font-family: 'Emilys Candy', cursive;
+  text-decoration: underline;
+}
+
+a{
+  color: orange;
+  text-align: center;
+  text-decoration: none;
+}
+
+#atSchoolActivities{
+  font-family: 'Emilys Candy', cursive;
+  text-align: center;
+}
+.atSchoolpic {
+  width : 200px;
+}
+
+
+
+#feildTrips{
+  font-family: 'Emilys Candy', cursive;
+  text-align: center;
+}
+
+.feildTripsImage{
+  
+  padding: 0px;
+  margin: -2px;
+}

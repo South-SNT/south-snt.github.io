@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+    <title>Claire Jensen</title>
+    <link href="claire.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="wrapper">
+
+<!-- ************ NAV BAR ************* NAV BAR *************** NAV BAR ***********--> 
+      <ul class = "navUl">
+        <li class = "navBar"><a href="../../south.html" >Home</a></li>
+        <li class = "navBar"><a href="../../activities/activities.html">Activities</a></li>
+        <li class="dropdown navBar">
+          <a>Members</a>
+          <div id="membersList">
+            <a href="../griffin/griffin.html">Mr. Griffin</a>
+            <a href="../spring/spring.html">Ms. Spring</a>
+            <a href="../sylvie/sylvie.html">Sylvie</a>
+	    <a href="../matisse/matisse.html">Matisse</a>
+      <a href="../kate/kate.html">Kate</a>
+      <a href="../claire/claire.html">Claire</a>
+          </div>
+        </li>
+        <li class = "navBar">
+          <a href = ../../memes/memes.html>Memes</a>
+        </li>
+      </ul>
+<!-- ************ NAV BAR ************* NAV BAR *************** NAV BAR ***********--> 
+
+      <div id="main-content">
+        <div id="left-column">
+          <div class="box">
+            <h2>Bio</h2>
+            <ul style="margin-top:10px;">
+              <p style="font-size:80%;">Claire Jensen is a student at South High School in the class of 2020. She has been a member of 
+                Sisters-n-Technology since 2017, and she claims to be  way too busy to come to 
+                most of the meetings. Claire enjoys coding in HTML, CSS, JavaScript, and Python. Next on
+                her list to learn is C. She has had two summer internships, one at Toole Design Group, and one at Amazon.
+                 In the rare case that she has free time, Claire likes to play soccer,
+                snowboard, code, read, play video games, take pictures, and build circuits. You can find her fire
+                Spotify playlists below. Claire hopes to go to college, major in computer science, and either take a 
+                double major, or a minor. Her top choices in terms of schools are; Bowdoin, Tufts, Harvey Mudd, 
+                University of Chicago, Amherst, and Carleton. Claire hopes to create her own business and 
+                become an entrepreneur someday.
+              </p>
+            </ul>
+          </div>
+          <h2>Quotes to Live By</h2>
+          <p style="text-align:center;">
+            <em>"Never trust a computer you can't throw out a window."</em> <br>Steve Wozniak<br/>
+            <em>"I want to put a ding in the universe"</em><br> Steve Jobs<br/>
+          </p>
+        </div>
+        <div id="right-column">
+          
+          <!--****************Here is the code for the slideshow that I stole from W3Schools because I'm fake************-->
+          <style>
+ * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+</style>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="Claire by a Canoe.JPG" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="Claire in the Woods.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="Claire Smiling.jpg" style="width:100%">
+  
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1 }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
+
+          <!-- *****************************************End of stolen code***********************************-->
+          
+          <div class="sidebar">
+            <h1 style="color:#333;">
+              Claire Jensen
+            </h1>
+            <p style="text-align:center;">It took me long enough to build this page, it might as well be good.</p>
+            <h2>Links</h2>
+            <div class="box">
+              <ul>
+                <li><a href="https://open.spotify.com/user/weezelboy?si=AMs5jYqPRFSI18NyQIf6og" target="_blank">Spotify</a></li>
+                <li><a href="https://sites.google.com/site/umblokedgames/tank-trouble" target="_blank">Tank Trouble</a></li>
+                <li><a href="https://www.instagram.com/jensen.claire/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/cjense/" target="_blank">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        Copyright &copy; Claire Jensen All rights reserved.<br/>
+        Layout adapted from <a href="http://www.web-designers-directory.org/" target="_blank">Web Designers' Directory</a>.
+      </div>
+    </div>
+
+  </body>
+</html>
