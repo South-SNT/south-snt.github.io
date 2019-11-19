@@ -78,7 +78,7 @@ font-family: 'Vollkorn SC', serif;*/
 body {
   font:normal 12px/1.6em Arial, Helvetica, sans-serif;
   color:#19222a;
-  background: #999;
+  background: rgb(97, 97, 97);
   font-size: 18px;
   margin:0px;
   padding:0px;
