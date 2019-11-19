@@ -1,5 +1,6 @@
 
 load("nav.html", document.getElementById("navi"));
+load("nav.html", document.getElementById("navi2"));
 
 
 function load(url, element) {
