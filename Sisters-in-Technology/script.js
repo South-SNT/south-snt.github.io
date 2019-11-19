@@ -1,5 +1,5 @@
 
-load("https://south-snt.github.io/Sisters-in-Technology/nav.html", document.getElementById("navi"));
+load("nav.html", document.getElementById("navi"));
 load("nav.html", document.getElementById("navi2"));
 
 
